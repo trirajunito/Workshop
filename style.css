@@ -1,0 +1,129 @@
+/* Reset dan Font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.hero-img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Section */
+section {
+    margin-top: 30px;
+}
+
+.about p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Tombol */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 10px 0 0;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.github {
+    background-color: #333;
+}
+
+.linkedin {
+    background-color: #0073b1;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Bagian Aktivitas Gambar Tambahan */
+.highlight {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.highlight-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.highlight-text {
+    font-size: 16px;
+    color: #444;
+    padding: 0 20px;
+}
+
+/* Kegiatan Favorit */
+.hobby {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.hobby-img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.hobby-text {
+  font-size: 16px;
+  color: #444;
+  padding: 0 10px;
+  text-align: justify;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 14px;
+}
